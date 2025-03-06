@@ -6,7 +6,7 @@ diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
 +	rk3399-fmx1.dtb \
 	rk3399-gru-bob.dtb \
 	rk3399-gru-kevin.dtb \
-diff --git a/configs/fmx1-pro-rk3399_defconfig b/configs/fmx1-rk3399_defconfig
+diff --git a/configs/fmx1-rk3399_defconfig b/configs/fmx1-rk3399_defconfig
 new file mode 100644
 --- /dev/null
 +++ b/configs/fmx1-rk3399_defconfig
