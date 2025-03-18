@@ -1,4 +1,4 @@
-name: Build Armbian Customize Board_RK3399-FMX1-6.12
+name: Build Armbian Customize Board_RK3399-FMX1
 
 on:
   workflow_dispatch:
