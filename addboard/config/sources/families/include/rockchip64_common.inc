@@ -26,6 +26,15 @@ RKBIN_DIR="$SRC/cache/sources/rkbin-tools"
 
 case $BRANCH in
 
+	vendor)
+		declare -g KERNEL_MAJOR_MINOR="6.1"    # Major and minor versions of this kernel.
+		declare -g LINUXFAMILY=rockchip64
+		declare -g LINUXCONFIG='linux-rockchip64-'$BRANCH
+		KERNELSOURCE='https://github.com/armbian/linux-rockchip.git'
+		KERNELBRANCH='branch:rk-6.1-rkr3'
+		KERNELPATCHDIR='rk35xx-vendor-6.1'
+		;;
+
 	current)
 		declare -g KERNEL_MAJOR_MINOR="6.6"
 		declare -g LINUXFAMILY=rockchip64
